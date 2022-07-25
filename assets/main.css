@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    --base: #191724;
+    --surface: #1f1d2e;
+    --overlay: #26233a;
+    --muted: #6e6a86;
+    --subtle: #908caa;
+    --text: #e0def4;
+    --love: #eb6f92;
+    --gold: #f6c177;
+    --rose: #ebbcba;
+    --pine: #31748f;
+    --foam: #9ccfd8;
+    --iris: #c4a7e7;
+    --highlight-low: #21202e;
+    --highlight-mid: #403d52;
+    --highlight-high: #524f67;
+}
+
+body {
+    background: var(--base);
+    height: 100vh;
+    width: 100vw;
+}
+
+.timer {
+    height: 180px;
+    width: 100%;
+    font-family: bungee, sans-serif;
+    font-weight: 400;
+    font-size: 5.5rem;
+    color: var(--highlight-low);
+	text-shadow: -5px 5px 0px #eb6f92, -10px 10px #f6c177, -15px 15px 0px #C3A5E6, -20px 20px 0px #31748f;
+    text-align: center;
+}
+
+.youtube {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+iframe {
+    border-radius: 20px;
+}
